@@ -6,6 +6,9 @@
     <title>Contact - Site Web Lourd</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Exemple d'une police optimisée -->
 </head>
 <body>
     <header>
@@ -17,11 +20,14 @@
             <h2>Formulaire de Contact</h2>
             <form>
                 <label for="name">Nom:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" required>
+                
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
+                
                 <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
+                <textarea id="message" name="message" required></textarea>
+                
                 <button type="submit">Envoyer</button>
             </form>
         </section>
@@ -31,6 +37,6 @@
         <p>© 2024 Site Lourd | Tous droits réservés.</p>
     </footer>
     
-    <src="scripts/app.js">
+    <script src="scripts/app.js" defer></script> <!-- Correction de la balise de script -->
 </body>
 </html>
