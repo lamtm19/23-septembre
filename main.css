@@ -1,6 +1,6 @@
-/* Fichier CSS non minifié avec des styles redondants */
+/* Fichier CSS optimisé */
 body {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #fafafa;
     color: #333;
     margin: 0;
@@ -9,14 +9,11 @@ body {
 
 h1, h2 {
     margin-bottom: 20px;
+    font-size: 30px; /* Taille de base pour h2 */
 }
 
 h1 {
-    font-size: 36px;
-}
-
-h2 {
-    font-size: 30px;
+    font-size: 36px; /* Taille spécifique pour h1 */
 }
 
 img {
