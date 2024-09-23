@@ -1,6 +1,6 @@
 /* Fichier CSS non minifié avec des styles redondants */
 body {
-    font-display: swap;
+    font-family:'Roboto', sans-serif;
     background-color: #fafafa;
     color: #333;
     margin: 0;
